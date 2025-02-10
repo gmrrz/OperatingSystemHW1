@@ -1,4 +1,4 @@
-obj-m += counter_module.o
+obj-m += hw1.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
